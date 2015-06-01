@@ -251,9 +251,67 @@ article img {
     padding-top: 20px;
 }
 
+#comments {
+    margin-top: 20px;
+}
 
+.comments-left {
+    width: 8%;
+   float: left;
+ }
 
+.comments-left img {
+    width: 100%;
+ }
 
+.comments-right {
+    width: 90%;
+    float: right;
+}
+
+.comments-form, 
+.add-post {
+    margin: 20px 0;
+    background: DarkGray;
+    color: #fff;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+}
+.comments-form input[type="text"], 
+.comments-form input[type="email"],
+.comments-form input[type="submit"],
+.comments-form textarea,
+.add-post  input[type="text"],
+.add-post  input[type="submit"],
+.add-post  input[type="file"],
+.add-post  select, 
+.add-post  textarea {
+    width: 97%;
+    height: 20px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.comments-form textarea {
+    height: 60px;
+}
+.add-post textarea {
+    height: 200px;
+}
+
+.comments-form input[type="submit"],
+.add-post input[type="submit"] {
+    width: 15%;
+    height: 25px;
+    text-align: center;
+}
+
+.add-post  select  {
+    height: 25px;
+}
 
 
 
